@@ -7,5 +7,5 @@ spec:
     spec:
       containers:
       - name: server 
-        image: amol1996/emailservice:v1
+        image: flapps/emailservice:v1.1.1
 
