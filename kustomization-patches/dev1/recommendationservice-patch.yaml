@@ -7,5 +7,5 @@ spec:
     spec:
       containers:
       - name: server
-        image: devandcld/recommendationservice:v1
+        image: flapps/recommendation-service:v1.1.1
 
