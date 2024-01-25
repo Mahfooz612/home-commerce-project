@@ -7,4 +7,4 @@ spec:
     spec:
       containers:
       - name: server
-        image: devandcld/cartservice:v1
+        image: flapps/cartservice:v1.1.1
