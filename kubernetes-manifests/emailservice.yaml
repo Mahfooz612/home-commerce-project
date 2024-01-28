@@ -31,7 +31,7 @@ spec:
       - name: deploy-pull-harbor
       containers:
       - name: server
-        image: emailservice:v1
+        image: flapps/emailservice:v1.1.1
         ports:
         - containerPort: 8080
         env:
