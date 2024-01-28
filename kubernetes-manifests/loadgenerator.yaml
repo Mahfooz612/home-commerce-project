@@ -34,7 +34,7 @@ spec:
       - name: deploy-pull-harbor
       containers:
       - name: server
-        image: loadgenerator:v1
+        image: flapps/loadgenerator:v1.1.1
         env:
         - name: FRONTEND_ADDR
           value: "frontend:80"
